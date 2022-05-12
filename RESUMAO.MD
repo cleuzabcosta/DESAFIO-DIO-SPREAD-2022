@@ -1,12 +1,12 @@
-                                                   RASCUNHO DO GIT
-                                              comandos do GIT - windows
+                                  *RASCUNHO DO GIT*
+                            **Comandos do GIT - Windows**
 
 -cd  / = sai de todas as pastas
 -cd .. = sai de uma pasta
 -cd  = entra na pasta
 -dir ou ls  = lista os arquivos e pastas
 -mkdir  cria pastas
-- del = exclui pastas/arquivos
+-del = exclui pastas/arquivos
 rmdir nome da pasta /s /q = exclui a pasta com tudo que tem dentro.
 mv= move um arquivo ou pasta
 clear  (CTRL + L)= limpa a tela
@@ -15,7 +15,8 @@ ls -a = lista os arquivos ocultos
 git init = cria repositório, ou seja inicia o GIT
 git add = inicia o versionamento do arquivo
 git remote -v = visualiza o que está no repositório remoto
-git push origin master = É usado para fazer upload de conteúdo em repositórios remotos para isso, o git pede a confirmação das credenciais do GITHUB.
+git push origin master = É usado para fazer upload de conteúdo em repositórios
+remotos para isso, o git pede a confirmação das credenciais do GITHUB.
 git pull origin master = É um dos muitos comandos que têm a responsabilidade de "sincronizar" conteúdo remoto.
 git status = mostra o status do repositório, em que modo se encontra o arquivo. comando muito importante, sempre é usado porque ele informa como está o ciclo de vida do arquivo, ou seja em qual fase ele se encontra.
 git restore -staged <nomedoarquivo> = move o arquivo  que está na fase “stage” para UNTRACKED
